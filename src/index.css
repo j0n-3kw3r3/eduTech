@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+*{
+            box-sizing: border-box;
+
+      }
+      html{
+            scrollbar-width: normal;
+      }
+      html::-webkit-scrollbar{
+            width:.7em;
+      }
+      html::-webkit-scrollbar-thumb{
+      background: #cecece;
+      border-radius:1em;
+}
+   html::-webkit-scrollbar-thumb:hover{
+      background: #000;
+}
+      html::-webkit-scrollbar-track{
+      background: #fff;
+}
+
+
+      body{
+      background: #FDFDFD;
+      font-family: 'Poppins';
+      margin: 0;
+      /* color:#000; */
+      font-weight: 500;
+      width: 100%;
+
+}
+      img{
+      max-width: 100%;
+}
